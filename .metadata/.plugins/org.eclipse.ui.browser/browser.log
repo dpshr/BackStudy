@@ -1,0 +1,62 @@
+
+5월 24, 2024 10:38:05.84 NEW SESSION
+5월 24, 2024 10:38:05.85 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 24, 2024 11:11:57.14 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 24, 2024 12:18:33.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 24, 2024 12:45:18.38 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 24, 2024 12:47:20.25 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 24, 2024 14:01:23.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+5월 31, 2024 09:04:09.32 NEW SESSION
+5월 31, 2024 09:04:09.33 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 31, 2024 09:18:19.64 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 31, 2024 09:21:48.69 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+6월 05, 2024 18:36:32.55 NEW SESSION
+6월 05, 2024 18:36:32.56 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 05, 2024 23:06:21.82 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 05, 2024 23:40:02.26 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 06, 2024 24:12:13.52 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+6월 07, 2024 15:11:43.75 NEW SESSION
+6월 07, 2024 15:11:43.76 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 07, 2024 15:11:54.82 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 07, 2024 15:22:09.09 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 07, 2024 16:02:21.88 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 07, 2024 16:02:32.07 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 07, 2024 21:27:35.26 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 07, 2024 21:28:01.35 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 02:49:37.08 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 03:31:35.92 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 03:31:44.90 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 04:35:04.26 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 05:10:01.38 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 10:43:26.80 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+6월 08, 2024 11:04:51.14 NEW SESSION
+6월 08, 2024 11:04:51.15 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 11:16:21.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 18:42:35.75 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 20:33:23.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 20:35:56.32 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 08, 2024 22:25:09.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 10, 2024 09:04:03.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 10, 2024 09:04:25.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 10, 2024 09:17:51.86 [1984:15680:0610/091751.861:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+6월 12, 2024 16:55:56.98 NEW SESSION
+6월 12, 2024 16:55:56.99 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 12, 2024 17:01:18.36 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 12, 2024 17:04:07.27 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 12, 2024 17:09:40.34 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 12, 2024 17:30:04.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 12, 2024 17:47:43.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 12, 2024 17:48:19.42 [448:18424:0612/174819.426:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 12, 2024 23:42:03.55 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+6월 14, 2024 10:22:28.81 NEW SESSION
+6월 14, 2024 10:22:28.81 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 15, 2024 11:03:15.19 기존 브라우저 세션에서 여는 중입니다.
+6월 15, 2024 11:03:17.51 Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 15, 2024 11:05:52.82 [2220:2628:0615/110552.826:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 15, 2024 13:12:03.75 [2220:2628:0615/131203.753:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost

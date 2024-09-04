@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/Main.jsp HTTP/1.1" 200 2233
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/js/util.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/js/breakpoints.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/js/jquery.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/js/jquery.dropotron.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/css/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/js/browser.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/js/main.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/css/fontawesome-all.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/css/images/bg01.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/assets/css/images/bg02.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /Project1/images/banner.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:11 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:13 +0900] "GET /Project1/BoardMain.jsp HTTP/1.1" 200 4584
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:15 +0900] "GET /Project1/BoardWrite.jsp HTTP/1.1" 200 5007
+0:0:0:0:0:0:0:1 - - [06/Jun/2024:00:12:29 +0900] "POST /Project1/BoardService.do HTTP/1.1" 500 1265

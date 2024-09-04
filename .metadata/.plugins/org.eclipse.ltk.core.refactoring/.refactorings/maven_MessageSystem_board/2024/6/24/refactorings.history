@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;font-awesome.min.css&apos; to &apos;BoardWrite.jsp&apos;&#x0D;&#x0A;- Original project: &apos;maven_MessageSystem_board&apos;&#x0D;&#x0A;- Destination element: &apos;BoardWrite.jsp&apos;&#x0D;&#x0A;- Original element: &apos;font-awesome.min.css&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="src/main/webapp/assets/css/font-awesome.min.css" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1718073917714" target="/Project1/src/main/webapp/BoardWrite.jsp" units="0" version="1.0"/>
+</session>

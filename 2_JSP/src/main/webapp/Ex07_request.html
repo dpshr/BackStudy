@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+ fieldset{
+ 	display: inline;
+ }
+ #center{
+ 	text-align: center;
+ }
+</style>
+</head>
+<body>
+<form action="./Ex07_request.jsp" method = "post">
+<fieldset>
+<legend>학점 확인 프로그램</legend>
+<table>
+<tr>
+<td align="left">이름</td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td align="left">Java 점수</td>
+<td><input type="text" name="java"><br></td>
+</tr>
+<tr>
+<td align="left">Python 점수</td>
+<td><input type="text" name="python"><br></td>
+</tr>
+<tr>
+<td align="left">Web 점수</td>
+<td><input type="text" name="web"><br></td>
+</tr>
+<tr>
+<td align="left">Machine Learning 점수</td>
+<td><input type="text" name="machine"><br></td>
+</tr>
+<tr>
+<td colspan="2" id="center"><button type="submit">확인하기</button></td>
+<td></td>
+</tr>
+</table>
+
+</fieldset>
+
+</form>
+</body>
+</html>

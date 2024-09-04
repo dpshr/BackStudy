@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="mapper.MemberMapper">
+  	<insert id="join" parameterType="MemberDTO">
+  		INSERT INTO tbl_member (mem_id, mem_pw, mem_name, mem_email, mem_gender, mem_birthdate, mem_type, mem_join_dt) VALUES (#{id}, #{pw}, #{name},#{email}, #{gender}, #{birthday}, '1', sysdate)
+  	</insert>
+  	<select id="idCheck" parameterType="String" resultType="String">
+  	select mem_id as id from tbl_member where mem_id = #{id}
+  	</select>
+  	<select id="login" parameterType="MemberDTO" resultType="MemberDTO">
+  	SELECT mem_id AS id, mem_pw AS pw, mem_name AS name, mem_email AS email, mem_gender AS gender, mem_birthdate AS birthday, mem_join_dt AS signday
+        FROM tbl_member WHERE mem_id = #{id} AND mem_pw = #{pw}
+  	</select>
+  	<update id="update" parameterType="MemberDTO" >
+  	update tbl_member set mem_pw=#{pw}, mem_name=#{name}, mem_email = #{email} where mem_id=#{id}
+  	</update>
+	<select id="selectMember" resultType="MemberDTO">
+		SELECT mem_id AS id, mem_pw AS pw, mem_name AS name, mem_email AS email, mem_gender AS gender, mem_birthdate AS birthday, mem_join_dt AS signday
+        FROM tbl_member where not mem_id ='admin'
+	</select>
+  	<delete id="delete" parameterType="String">
+  	delete from tbl_member where mem_id=#{id}
+  	</delete>
+  </mapper>

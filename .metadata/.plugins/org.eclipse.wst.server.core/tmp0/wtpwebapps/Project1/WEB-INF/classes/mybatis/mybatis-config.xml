@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- mybatis환경설정 파일 -->
+<configuration>
+	<!-- db.properties파일 연결 -->
+	<properties resource="mybatis/db.properties"></properties>
+	<typeAliases>
+		<typeAlias type="model.MemberDTO" alias="MemberDTO"/>
+		<typeAlias type="model.BoardVO" alias="BoardVO"/>
+		<typeAlias type="model.CommentVO" alias="CommentVO"/>
+		<typeAlias type="model.MachineDTO" alias="MachineDTO"/>
+		<typeAlias type="model.LocalDTO" alias="LocalDTO"/>
+		<typeAlias type="model.SeedDTO" alias="SeedDTO"/>
+		<typeAlias type="model.MaterialDTO" alias="MaterialDTO"/>
+		<typeAlias type="model.LikeDTO" alias="LikeDTO"/>
+	</typeAliases>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${driver}" />
+				<property name="url" value="${url}" />
+				<property name="username" value="${username}" />
+				<property name="password" value="${password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<mapper resource="Mapper/MemberMapper.xml" />
+		<mapper resource="Mapper/BoardMapper.xml" />
+		<mapper resource="Mapper/CommentMapper.xml" />
+		<mapper resource="Mapper/CalMapper.xml" />
+		<mapper resource="Mapper/LocalMapper.xml" />
+		<mapper resource="Mapper/SeedMapper.xml" />
+		<mapper resource="Mapper/MaterialMapper.xml" />
+		<mapper resource="Mapper/LikeMapper.xml" />
+	</mappers>
+</configuration>

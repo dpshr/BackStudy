@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+</web-app>
+<!-- 
+1.web버전이 낮을 때 (3.0아래일 때)
+-src/main/webapp/WEB-INF/web.xml
+-해당파일에 servlet,servlet-mapping 태그를 활용해서 수정
+-url mapping 값을 변경하고 싶을 때는 servlet-mapping 태그의 url-pattern 태그의 내용을 수정
+
+2. web버전이 높을 때(3.0 이상일 때)
+ - 어노테이션 방식을 활용
+ - 클래스 윗 부분에 @WebServlet("url mapping값")
+ -->
